@@ -1,4 +1,4 @@
-# PS4API 5.01 Server
+# PS4API 5.0x Server
 
 This project allows you to control PS4 game memory for reading/writing calls.
 with this project you can make RTE/RTM tools
@@ -45,3 +45,4 @@ args:
 - xvortex
 - 2much4u
 - [Vultra](https://twitter.com/C0rpVultra)
+- J00ni3
