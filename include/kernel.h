@@ -3,10 +3,10 @@
 
 #define Inline static inline __attribute__((always_inline))
 #define	KERN_XFAST_SYSCALL 0x1C0 //5.01 https://twitter.com/C0rpVultra/status/992789973966512133
-#define KERN_PROCESS_ASLR 0x1BA559 //4.55 needs updating
+#define KERN_PROCESS_ASLR 0x194765 //5.01
 #define KERN_PRISON_0 0x10986A0 //5.01
 #define KERN_ROOTVNODE 0x22C19F0 //5.01
-#define KERN_PTRACE_CHECK 0x17D2C1 //4.55 needs updating
+#define KERN_PTRACE_CHECK 0x30D633 //5.[1
 
 #define X86_CR0_WP (1 << 16)
 
