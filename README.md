@@ -3,6 +3,7 @@
 This project allows you to control PS4 game memory for reading/writing calls.
 with this project you can make RTE/RTM tools
 
+- This Master Tree is the support for 5.01 FW. Visit the 5.05 Tree For API Support
 
 ## How To Build
 
