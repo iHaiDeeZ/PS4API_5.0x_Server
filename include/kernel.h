@@ -6,7 +6,7 @@
 #define KERN_PROCESS_ASLR 0x194875 //5.05
 #define KERN_PRISON_0 0x10986a0 //5.05
 #define KERN_ROOTVNODE 0x22c1a70 //5.05
-#define KERN_PTRACE_CHECK 0x30D9C3 //5.05
+#define KERN_PTRACE_CHECK 0x0030D9C3 //5.05
 
 #define X86_CR0_WP (1 << 16)
 
@@ -122,7 +122,7 @@ int kernelPayload(struct thread *td, void* uap) {
 	writeCr0(cr0 & ~X86_CR0_WP);
 
 	// Disable ptrace check
-	ptrKernel[KERN_PTRACE_CHECK] = 0xEB;
+	ptrKernel[KERN_PTRACE_CHECK] = 0x90;
 
 	// Disable process aslr
 	*(uint16_t*)&ptrKernel[KERN_PROCESS_ASLR] = 0x9090;
