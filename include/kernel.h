@@ -6,7 +6,7 @@
 #define KERN_PROCESS_ASLR 0x194875 //5.05
 #define KERN_PRISON_0 0x10986a0 //5.05
 #define KERN_ROOTVNODE 0x22c1a70 //5.05
-#define KERN_PTRACE_CHECK 0x30D9C3 //5.05 - needs fixing
+#define KERN_PTRACE_CHECK 0x30D9C3 //5.05 - fixed
 
 #define X86_CR0_WP (1 << 16)
 
